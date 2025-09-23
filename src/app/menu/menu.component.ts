@@ -1,7 +1,7 @@
 import { CommonModule } from '@angular/common';
 import { Component } from '@angular/core';
 import { FormsModule } from '@angular/forms';
-import { RouterLink } from '@angular/router';
+import { Router, RouterLink } from '@angular/router';
 
 @Component({
   selector: 'app-menu',
@@ -23,4 +23,11 @@ export class MenuComponent {
       console.warn("Um ou mais elementos não foram encontrados no DOM.");
     }
   }
+
+  constructor(private router: Router) {}
+
+  logout() {
+    this.router.navigate(['/login']);
+  }
+
 }

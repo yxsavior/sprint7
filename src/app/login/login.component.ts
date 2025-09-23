@@ -6,10 +6,11 @@ import { MatFormFieldModule } from '@angular/material/form-field';
 import { MatIconModule } from '@angular/material/icon';
 import { MatInputModule } from '@angular/material/input';
 import { FormsModule } from '@angular/forms';
+import { MatCheckboxModule } from '@angular/material/checkbox';
 
 @Component({
   selector: 'app-login',
-  imports: [CommonModule,MatFormFieldModule,MatInputModule, MatIconModule,MatButtonModule, FormsModule],
+  imports: [CommonModule,MatFormFieldModule,MatInputModule, MatIconModule,MatButtonModule, FormsModule, MatCheckboxModule],
   templateUrl: './login.component.html',
   styleUrl: './login.component.css'
 })
