@@ -1,4 +1,4 @@
-# Sprint7
+# Sprint7 (main)
 
 This project was generated using [Angular CLI](https://github.com/angular/angular-cli) version 19.2.16.
 
